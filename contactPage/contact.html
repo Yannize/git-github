@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../global.css">
+  <link rel="stylesheet" href="contact.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <a class="logo" href="../index.html">
+      <h1></h1>
+    </a>
+
+    <nav>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../aboutPage/about.html">About Me</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>Contactez-moi</h1>
+    <p>N'hésitez pas à me contacter pour toute question, suggestion ou opportunité de collaboration.</p>
+
+    <form method="post" action="envoyer_message.php">
+      <label for="nom">Nom :</label>
+      <input type="text" id="nom" name="nom" required>
+
+      <label for="email">Email :</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message :</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <input type="submit" value="Envoyer">
+    </form>
+  </main>
+  <footer>
+    <p>© [Année en cours] - Tous droits réservés. Nom de votre entreprise. Développé avec passion par [Votre nom] ❤️</p>
+  </footer>
+</body>
+
+</html>
